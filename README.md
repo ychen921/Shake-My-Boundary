@@ -1,5 +1,5 @@
 # Shake My Boundary
-We implement a simple pb-lite edge detection algorithm in this project. First, generate four filter banks which are oriented Derivative of Gaussian (DoG), Leung-Malik (LM), Gabor, and Half-disc. By using these filters, we can create a texture map of the image. Also, use KMeans clustering to generate brightness and color. Then, implement chi-square distance combined with sobel and canny edges and will have pb-lite edges of the image. You can find the details of the project in this [website](!https://cmsc733.github.io/2022/hw/hw0/).
+We implement a simple pb-lite edge detection algorithm in this project. First, generate four filter banks which are oriented Derivative of Gaussian (DoG), Leung-Malik (LM), Gabor, and Half-disc. By using these filters, we can create a texture map of the image. Also, use KMeans clustering to generate brightness and color. Then, implement chi-square distance combined with sobel and canny edges and will have pb-lite edges of the image. You can find the details of the project in this [website](https://cmsc733.github.io/2022/hw/hw0/).
 
 ## Overview
 The overview of the algorithm is shown below.
